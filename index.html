@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous" />
+    <!-- Fonts google -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;700&family=Source+Sans+Pro:wght@400;600;700&display=swap" rel="stylesheet" />
+    <!-- Css -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- Font awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-xl navbar-light bg-light sticky-top">
+      <div class="container-fluid">
+        <a href="#" class="navbar-logout d-flex align-items-center"><i class="fas fa-sign-out-alt"></i>Logout</a>
+        <a href="#" class="navbar-brand">
+          <img class="img-thumbnail border-0 bg-transparent" src="assets/BP-Logo.png" alt="barenpost logo" />
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navBarToggle" aria-controls="navBarToggle" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navBarToggle">
+          <p class="m-auto nav-text">Angebote und Services für Apotheken</p>
+          <ul class="navbar-nav ml-auto">
+            <button class="nav-closer-btn"><i class="fas fa-times"></i></button>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink01" role="button" data-bs-toggle="dropdown" aria-expanded="false">Produkte</a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink01">
+                <li>
+                  <a href="#" class="dropdown-item">Schmerzen</a>
+                </li>
+                <li>
+                  <a href="#" class="dropdown-item">Erkältung</a>
+                </li>
+                <li>
+                  <a href="#" class="dropdown-item">Magen-Darm-Beschwerden</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink01" role="button" data-bs-toggle="dropdown" aria-expanded="false">Für die PTA</a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a href="#" class="dropdown-item">Fokus Kunde</a>
+                </li>
+                <li>
+                  <a href="#" class="dropdown-item">Rätsel</a>
+                </li>
+                <li>
+                  <a href="#" class="dropdown-item">Rezepte</a>
+                </li>
+                <li>
+                  <a href="#" class="dropdown-item">Goodies</a>
+                </li>
+                <li>
+                  <a href="#" class="dropdown-item">PTA-Bärenpost</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink01" role="button" data-bs-toggle="dropdown" aria-expanded="false">Für Apotheker</a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a href="#" class="dropdown-item">Aktuelle Angebote</a>
+                </li>
+                <li>
+                  <a href="#" class="dropdown-item">Liefer- und Rahmenbedingungen</a>
+                </li>
+                <li>
+                  <a href="#" class="dropdown-item">Produktinformationen</a>
+                </li>
+                <li>
+                  <a href="#" class="dropdown-item">Bärenpost bestellen</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink01" role="button" data-bs-toggle="dropdown" aria-expanded="false">Werbemittel</a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a href="#" class="dropdown-item">Bilddatenbank</a>
+                </li>
+                <li>
+                  <a href="#" class="dropdown-item">Abverkaufshilfen</a>
+                </li>
+                <li>
+                  <a href="#" class="dropdown-item">Broschüren</a>
+                </li>
+                <li>
+                  <a href="#" class="dropdown-item">Service Apps</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Kontakt</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">
+                <i class="fas fa-search"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- End nav -->
+    <!-- Header -->
+    <div class="header-container">
+      <header class="header container">
+        <img src="assets/HEaderbild.jpg" alt="hero-image" />
+        <div class="header-content">
+          <h3>Angebote gültig bis 30. April 2021</h3>
+          <h1 class="heading-title">Da springt was für Sie raus!</h1>
+          <h2>Angebote zu Schmerzmitteln, die sich diesen Frühling sehen lassen können.</h2>
+          <p class="blue-paragraph">
+            Nutzen Sie jetzt die besonders günstigen Konditionen für unsere Ibuprofen Schmerzmittel
+            <b>EUDORLIN® Extra Ibuprofen-Schmerztabletten</b> und <b>EUDORLIN® Migräne</b> sowie für unsere klassischen Analgetika <b>COPYRKAL®, EUDORLIN® Schmerztabletten</b> und
+            <b>TITRALGAN® gegen Schmerzen.</b>
+          </p>
+          <button class="blue-white-button hover-green-button">Zu den Aktuellen Angeboten</button>
+          <br />
+          <span>Bitte halten Sie hierfür Ihre DocCheck Zugangsdaten bereit.</span>
+        </div>
+      </header>
+    </div>
+    <!-- End header -->
+    <!-- Seeds -->
+    <div class="seeds-container">
+      <section class="seeds-section m-auto row justify-content-center container">
+        <div class="seeds-section-img col-md-4 text-center">
+          <img src="assets/Bär-giesst-blumen_hell.png" alt="second-section-img" />
+        </div>
+        <div class="seeds-section-content col-md-6 text-left">
+          <h2>Kostenlose Samentütchen Bienenwiese</h2>
+          <p class="white-paragraph">Unterstützen Sie durch die Aussaat pollenreicher Blühpflanzen Bienen und Hummeln auf ihrer Nahrungssuche, damit es bald wieder mehr brummt. Kostenlose Samentütchen Bienenwiese können Sie hier bestellen, solange der Vorrat reicht.</p>
+          <button class="white-button hover-green-button">Zu den Aktuellen Angeboten</button>
+        </div>
+      </section>
+    </div>
+    <!-- End seeds -->
+    <!-- Products -->
+    <div class="products-container">
+      <section class="products container">
+        <div class="products-inner">
+          <h2 class="blue-title">PRODUKTE</h2>
+          <p class="blue-paragraph my-2">Im Bereich Selbstmedikation hat der Pharmahersteller BERLIN-CHEMIE AG zahlreiche freiverkäufliche pharmazeutische Produkte für unterschiedliche medizinische Anwendungsgebiete im Portfolio. Dazu gehören die folgenden Anwendungsgebiete:</p>
+          <div class="row my-5">
+            <div class="card col-lg my-3 mx-1 p-0 border-0">
+              <img class="card-img-top" src="assets/Fotolia_60670423_XXL-mod-2.png" alt="projects-img" />
+              <div class="card-header">Schmerzen</div>
+              <div class="card-body">
+                <p class="card-text blue-paragraph">Schnell wirkende Analgetika mit bewährten Wirkstoffen gegen z. B. Kopfschmerzen oder Migräne bietet die BERLIN-CHEMIE AG zu besonders günstigen Preisen. Kombinationsanalgetika mit den Wirkstoffen Paracetamol, ASS und Koffein sowie Ibuprofen Schmerztabletten finden Sie in dieser Rubrik.</p>
+                <a class="card-link" href="#"><i class="fas fa-arrow-right"></i>Präparate gegen Schmerzen</a>
+              </div>
+            </div>
+            <div class="card col-md my-3 mx-1 p-0 border-0">
+              <img class="card-img-top" src="assets/Fotolia_60670423_XXL-mod-3.png" alt="projects-img" />
+              <div class="card-header">Erkältung</div>
+              <div class="card-body">
+                <p class="card-text blue-paragraph">Arzneimittel gegen Erkältungsbeschwerden, wie Husten oder Fieber, gehören ebenfalls zum OTC-Sortiment der BERLIN-CHEMIE AG. Gerade in der Erkältungszeit sind hustenlösende und fiebersenkende Mittel besonders gefragt. Ob als Tablette, Tropfen oder Zäpfchen.</p>
+                <a class="card-link" href="#"><i class="fas fa-arrow-right"></i>Präparate gegen Erkältung</a>
+              </div>
+            </div>
+            <div class="card col-md my-3 mx-1 p-0 border-0">
+              <img class="card-img-top" src="assets/Fotolia_60670423_XXL-mod.png" alt="projects-img" />
+              <div class="card-header">Magen-Darm-Beschwerden</div>
+              <div class="card-body">
+                <p class="card-text blue-paragraph">Bei Verdauungsproblemen wie Flatulenz und Völlegefühl liefern die rezeptfreien Magen-Darm-Produkte von BERLIN-CHEMIE schnelle Linderung. In der Rubrik Magen-Darm-Präparate finden Sie neben dem Entschäumer Espumisan® auch Laxantien, die schnell und sanft Erleichterung bei Verstopfung und Darmträgheit schaffen.</p>
+                <a class="card-link" href="#"><i class="fas fa-arrow-right"></i>Präparate gegen Magen-Darm- Beschwerden</a>
+              </div>
+            </div>
+          </div>
+          <div class="text-center">
+            <button class="blue-button">Hier geht es Zu den Produkten</button>
+          </div>
+        </div>
+      </section>
+    </div>
+    <!-- End products -->
+    <!-- Furdie section -->
+    <div class="furdie-section-container">
+      <section class="furdie-section py-5 container">
+        <h2 class="green-title">Für die PTA</h2>
+        <p class="paragraph-blue my-2">Die Bärenpost bietet Ihnen die Möglichkeit, Ihre Beratungskompetenz zu steigern und bringt Ihr Apotheken-Team auf den neuesten Wissensstand zu pharmazeutischen und medizinischen Themen. Neben hilfreichen Beratungs-Tipps, darf auch die Entspannung zwischendurch nicht zu kurz kommen. Rätsel, Rezepte u.v.m. sorgen hier für entspannte Unterhaltung.</p>
+        <div class="cards mx-auto row my-5 text-center justify-content-center">
+          <div class="card col-lg-3 my-2 border-0 bg-transparent">
+            <img class="card-img-top img-thumbnail border-0 bg-transparent" src="assets/02-FOKUS-KUNDE@2x.png" alt="" />
+            <div class="card-body">
+              <h3 class="card-title blue-card-title">Fokus Kunde</h3>
+              <div class="green-section-hr"></div>
+              <p class="card-text blue-paragraph">Erlangen Sie Sicherheit im Umgang mit anspruchsvollen Kunden – fachlich und kommunikativ. In der Rubrik „Fokus Kunde“ können Sie sich informieren.</p>
+            </div>
+            <div class="card-footer bg-transparent border-0">
+              <button class="green-white-btn">Fokus Kunde</button>
+            </div>
+          </div>
+          <div class="card col-lg-3 my-2 border-0 bg-transparent">
+            <img class="card-img-top img-thumbnail border-0 bg-transparent" src="assets/03-RAETSEL@2x.png" alt="" />
+            <div class="card-body">
+              <h3 class="card-title blue-card-title">Rätsel</h3>
+              <div class="green-section-hr"></div>
+              <p class="card-text blue-paragraph">Für den Zeitvertreib zwischendurch finden Sie hier kurzweilige Unterhaltung in Form eines klassischen Kreuzworträtsels oder Sudokus zum Downloaden.</p>
+            </div>
+            <div class="card-footer bg-transparent border-0">
+              <button class="green-white-btn">Rätsel</button>
+            </div>
+          </div>
+          <div class="card col-lg-3 my-2 border-0 bg-transparent">
+            <img class="card-img-top img-thumbnail border-0 bg-transparent" src="assets/01-GOODIES@2x.png" alt="" />
+            <div class="card-body">
+              <h3 class="card-title blue-card-title">Rezepte</h3>
+              <div class="green-section-hr"></div>
+              <p class="card-text blue-paragraph">Für das perfekte Essen finden Sie passend für jede Jahreszeit hier ein paar Anregungen für Ihr Candlelightdinner, oder Ihre nächste Grillparty.</p>
+            </div>
+            <div class="card-footer bg-transparent border-0">
+              <button class="green-white-btn">Rezepte</button>
+            </div>
+          </div>
+          <div class="card col-lg-3 my-2 border-0 bg-transparent">
+            <img class="card-img-top img-thumbnail border-0 bg-transparent" src="assets/04-REZEPTE@2x.png" alt="" />
+            <div class="card-body">
+              <h3 class="card-title blue-card-title">Goodies</h3>
+              <div class="green-section-hr"></div>
+              <p class="card-text blue-paragraph">BErlin-Chemie möchte Ihrer Apotheke mit kleinen Aufmerksamkeiten etwas Gutes tun. Downloaden Sie hier Geschenkanhänger für Weihnachten, einen kurzen Sprachführer und anderes.</p>
+            </div>
+            <div class="card-footer bg-transparent border-0">
+              <button class="green-white-btn">Goodies</button>
+            </div>
+          </div>
+        </div>
+        <div class="text-center">
+          <button class="blue-button">Alles für die PTA</button>
+        </div>
+      </section>
+    </div>
+    <!-- End furdie section -->
+    <!-- Barenpost section -->
+    <div class="barenpost-section-container">
+      <section class="row container m-auto py-5">
+        <div class="col-lg-4 py-2 text-center">
+          <img src="assets/Logo-PTA-Baerenpost@2x.png" alt="barenpost pta" class="img-thumbnail border-0 bg-transparent" />
+        </div>
+        <div class="col-lg-4 py-2 text-center">
+          <img src="assets/BC2003_PTA_Baerenpost_V03_Präse-1.png" alt="barenpost pta img" />
+        </div>
+        <div class="col-lg-4 py-2">
+          <h2 class="white-title">PTA-Bärenpost</h2>
+          <p class="white-paragraph">Sie kennen unsere PTA-Bärenpost noch nicht? Sie haben eine ältere Ausgabe verlegt? Kein Problem! Hier finden Sie die Ausgaben der PTA-Bärenpost als PDF zum Download.</p>
+          <button class="white-button">ZUm PTA-Archiv</button>
+        </div>
+      </section>
+    </div>
+    <!-- End barenpost section -->
+    <!-- Werbemittel section -->
+    <div class="webemittel-section-container py-5">
+      <section class="werbemittel-section container">
+        <h2 class="blue-title">Webemittel</h2>
+        <p class="paragraph-blue text-center">BERLIN-CHEMIE stellt Apotheken hier kostenlos Produktabbildungen für die Kundeninformation zur Verfügung. In dieser Rubrik finden Sie außerdem kostenlose informative Broschüren zu Krankheitsthemen und Medikamenten, die Ihre Beratung und den Verkauf unterstützen. Als zusätzlichen Service bieten wir Ihnen und Ihren Kunden Gratis-Apps für Eltern zum Download an.</p>
+        <div class="card-deck row my-4">
+          <div class="card col-md text-uppercase border-0 bg-transparent">
+            <div class="card-body">
+              <img src="assets/1.png" alt="" class="card-img" />
+              <h5 class="card-header">Bilddatenbank</h5>
+            </div>
+          </div>
+          <div class="card col-md text-uppercase border-0 bg-transparent">
+            <div class="card-body">
+              <img src="assets/2.png" alt="" class="card-img" />
+              <h5 class="card-header">Abverkaufshilfen</h5>
+            </div>
+          </div>
+          <div class="card col-md text-uppercase border-0 bg-transparent">
+            <div class="card-body">
+              <img src="assets/3.png" alt="" class="card-img" />
+              <h5 class="card-header">Broschüren</h5>
+            </div>
+          </div>
+          <div class="card col-md text-uppercase border-0 bg-transparent">
+            <div class="card-body">
+              <img src="assets/4.png" alt="" class="card-img" />
+              <h5 class="card-header">Service apps</h5>
+            </div>
+          </div>
+        </div>
+        <div class="text-center my-3">
+          <button class="blue-button">Zu den Werbemitteln</button>
+        </div>
+      </section>
+    </div>
+    <!-- End werbemittel section -->
+    <!-- Einblick section -->
+    <div class="einblick-section-container">
+      <section class="container py-5">
+        <div class="einblick-inner row">
+          <img class="einblick-woman-img" src="assets/iStock-1085240874-4c.png" alt="einblick img" />
+          <img src="assets/Einblick-Logo.png" class="col-lg-3 einblick-mic-img" alt="" />
+          <div class="einblick-content col-lg-7">
+            <h2 class="heading-title">EinBlick zum Hören</h2>
+            <h4 class="subtitle py-2">Der wöchentliche gesundheitspolitische Podcast</h4>
+            <p class="blue-paragraph py-1">EinBlick – Der Podcast präsentiert Ihnen jeden Freitag Mittag wichtige gesundheitspolitische Nachrichten. In gut zehn Minuten hören Sie, was in der vergangenen Woche eine Rolle gespielt hat und was in der folgenden Woche wichtig sein wird.</p>
+            <p class="bold-paragraph">EinBlick – Der Podcast immer freitags, ab 12 Uhr in allen bekannten Podcastportalen. Hören Sie mal rein unter www.einblick-newsletter.de!</p>
+            <button class="blue-dark-button">ZuM Einblick Podcast</button>
+          </div>
+        </div>
+      </section>
+    </div>
+    <!-- End Einblick section -->
+    <!-- Footer -->
+    <div class="footer-container">
+      <footer class="container py-5">
+        <h6 class="footer-text text-white">
+          <b class="text-white">Pflichtangaben für Publikum</b><br />BROMHEXIN 12 BC | BROMHEXIN 8 Berlin-Chemie | COPYRKAL® | DEMEX® Zahnschmerztabletten | Espumisan® Emulsion | Espumisan® Emulsion | Espumisan® Gold Perlen gegen Blähungen | Espumisan® Kautabletten | Espumisan® Perlen | EUDORLIN® Extra Ibuprofen-Schmerztabletten | EUDORLIN® Migräne | EUDORLIN® Schmerztabletten | Mezym® F | Milax® 1,0 | Pangrol® 10000 | Paracetamol BC 125 mg Zäpfchen | Paracetamol BC 500 mg Tabletten | TITRALGAN®
+          gegen Schmerzen
+        </h6>
+        <div class="footer-line"></div>
+        <div class="row mt-5">
+          <div class="col-sm-2 d-flex flex-column justify-content-start">
+            <a href="#" class="text-white footer-link py-1">Impressum</a>
+            <a href="#" class="text-white footer-link py-1">Datenschutz</a>
+            <a href="#" class="text-white footer-link py-1">Disclaimer</a>
+            <a href="#" class="text-white footer-link py-1">Cookies</a>
+          </div>
+          <div class="col-sm-4 d-flex flex-column justify-content-start">
+            <a href="#" class="text-white footer-link py-2">Nebenwirkung melden</a>
+            <a href="#" class="text-white footer-link py-1">AGB</a>
+            <a href="#" class="text-white footer-link py-1">Sitemap</a>
+          </div>
+          <div class="col-sm-6 d-flex justify-content-end footer-last-item flex-column text-right ml-auto">
+            <div>
+              <img src="assets/BC-Logo.png" alt="BC logo" class="img-thumbnail border-0 bg-transparent bc-logo" />
+            </div>
+            <p class="text-white text-right">BERLIN-CHEMIE AG<br />Glienicker Weg 125 · 12489 Berlin<br />Telefon: +49 30 6707-0</p>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <!-- End footer -->
+    <!-- Sripts js -->
+    <script src="scripts.js"></script>
+    <!-- Bootstrap  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+  </body>
+</html>
